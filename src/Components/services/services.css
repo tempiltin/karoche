@@ -16,14 +16,14 @@
     margin: 0 auto;
 }
 
-.section-title span.subtitle {
+.sectionTitle span.subtitle {
     color: var(--color-subtitle);
     letter-spacing: 1px;
     display: block;
     line-height: 14px;
     margin-bottom: 10px;
 }
-.section-title h2.title {
+.sectionTitle h2.title {
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;

@@ -132,4 +132,7 @@ p {
   color: var(--color-body);
   margin: 0 0 40px;
 }
-    
+.pt_Nav {
+  padding-top: 8%;
+  padding-bottom: 150px;
+}
