@@ -2,25 +2,26 @@ import React from 'react';
 import './services.css';
 import ImgP from '../../assets/images/portfolio/portfolio-01.jpg';
 import { BiLike } from 'react-icons/bi';
+import { Link } from "react-router-dom"
 const data = [
     {
         id: 1,
-        like: 249,
-        name: 'Web site',
+        see: 249,
+        name: 'Click-clone',
         image: ImgP,
         title: 'tempiltin ',
 
-        demo: 'https://tempiltin-click-clon.netlify.app'
+        demo: '/demo-1'
 
     },
     {
         id: 2,
-        like: 249,
+        see: 249,
         name: 'Web site',
         image: ImgP,
         title: 'tempiltin ',
 
-        demo: 'https://tempiltin-click-clon.netlify.app'
+        demo: '/demo-1'
     }
 ]
 function ServicesTem() {
@@ -58,7 +59,7 @@ function ServicesTem() {
                                                             <a href=" #!"><BiLike className='Like' /></a> <span> {like}</span>
                                                         </div>
                                                     </div>
-                                                    <h4 className="title"><a href={demo} target="_blank ">{title}</a></h4>
+                                                    <h4 className="title"><Link to={demo} target="_blank ">{title}</Link></h4>
                                                 </div>
                                             </div>
                                         </div>
